@@ -122,7 +122,7 @@ Aşağıdaki haklara sahipsiniz:
 - ✅ Veri işlemeye **itiraz etme**
 - ✅ Verilerinizi **taşınabilir formatta** alma
 
-Hesap silme: Uygulama içinde **Profil → Çıkış Yap → Hesabımı Sil** veya `destek@maternaai.app` adresine e-posta gönderin.
+Hesap silme: Uygulama içinde **Profil → Çıkış Yap → Hesabımı Sil** veya `norahsoftware@gmail.com` adresine e-posta gönderin.
 
 ---
 
