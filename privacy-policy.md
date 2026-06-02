@@ -21,22 +21,10 @@ MaternaAI uygulamasını ("Uygulama") kullandığınız için teşekkür ederiz.
 - E-posta adresi
 - Profil fotoğrafı (Google/Apple ile giriş yaparsanız)
 
-### b) Hamilelik & Sağlık Bilgileri (Kullanıcı tarafından sağlanan)
-- Son adet tarihi (SAT)
-- Tahmini doğum tarihi
-- Boy ve kilo
-- Doğum tarihi (lohusalık modunda)
-
-### c) Akıllı Saat Verileri (Premium — opsiyonel)
-- Nabız (kalp atış hızı)
-- Adım sayısı
-- Uyku süresi
-- Aktif kalori
-- Tansiyon (varsa)
-- Oksijen saturasyonu (SpO2)
-- Kalp atış değişkenliği (HRV)
-
-> Bu veriler **Apple HealthKit** veya **Google Health Connect** üzerinden, sizin **açık izninizle** alınır. İzni istediğiniz zaman cihaz ayarlarından geri çekebilirsiniz.
+### b) Kullanıcı Tarafından Sağlanan Yaşam Tarzı ve Günlük Notları
+-Kullanıcının kendi isteğiyle uygulama içine kaydettiği günlük notları, hatırlatıcılar ve planlama verileri.
+-Hamilelik ve lohusalık süreçlerine yönelik kişisel ajanda ve takvim planlamaları.
+-Kullanıcının kendi belirlediği hedef boy, kilo veya su tüketimi gibi tamamen yaşam tarzı yönetimine ait kişisel notlar.
 
 ### d) Kullanım Verileri
 - AI sohbet geçmişi (24 saatlik, sonra otomatik silinir)
@@ -74,23 +62,10 @@ Aşağıdaki hizmetleri kullanırız:
 | **Firebase (Google)** | Kimlik doğrulama, veri saklama | [Firebase](https://firebase.google.com/support/privacy) |
 | **Google Gemini AI** | AI sohbet asistanı | [Google AI](https://policies.google.com/privacy) |
 | **RevenueCat** | Abonelik yönetimi | [RevenueCat](https://www.revenuecat.com/privacy) |
-| **Apple HealthKit** | Sağlık verileri (iOS) | [Apple](https://www.apple.com/legal/privacy/) |
-| **Google Health Connect** | Sağlık verileri (Android) | [Google](https://policies.google.com/privacy) |
 
 ---
 
-## 5. Sağlık Verilerinin Özel Durumu
-
-🔒 **Sağlık verileriniz hassastır:**
-
-- Sağlık verileri **yalnızca cihazınızda** işlenir, sunucularımıza gönderilmez
-- AI asistanı yanıtları için anlık olarak işlenir, **saklanmaz**
-- HealthKit/Health Connect izinlerini istediğiniz zaman ayarlardan kapatabilirsiniz
-- Verilerinizi **asla reklam veya pazarlama amacıyla** kullanmayız
-
----
-
-## 6. AI Sohbet Geçmişi
+## 5. AI Sohbet Geçmişi
 
 - AI ile yaptığınız sohbetler **24 saat** sonunda otomatik silinir
 - Premium kullanıcılar için sağlık verileri AI'a gönderilirken **anonimleştirilir**
@@ -98,7 +73,7 @@ Aşağıdaki hizmetleri kullanırız:
 
 ---
 
-## 7. Veri Güvenliği
+## 6. Veri Güvenliği
 
 - Tüm veriler **TLS/HTTPS** ile şifrelenmiş bağlantı üzerinden iletilir
 - Firestore'daki veriler endüstri standardı şifreleme ile korunur
@@ -106,13 +81,13 @@ Aşağıdaki hizmetleri kullanırız:
 
 ---
 
-## 8. Çocuklar
+## 7. Çocuklar
 
 Uygulamamız **18 yaş altı kullanıcılar için tasarlanmamıştır**. 18 yaşından küçükseniz lütfen kullanmayın. Bilmeden bir çocuktan veri toplandığını fark edersek hemen sileriz.
 
 ---
 
-## 9. Haklarınız (KVKK & GDPR)
+## 8. Haklarınız (KVKK & GDPR)
 
 Aşağıdaki haklara sahipsiniz:
 
@@ -126,7 +101,7 @@ Hesap silme: Uygulama içinde **Profil → Çıkış Yap → Hesabımı Sil** ve
 
 ---
 
-## 10. Veri Saklama Süresi
+## 9. Veri Saklama Süresi
 
 - **Hesap aktifken:** Veriler saklanır
 - **Hesap silindiğinde:** Tüm veriler **30 gün içinde** kalıcı olarak silinir
@@ -135,19 +110,15 @@ Hesap silme: Uygulama içinde **Profil → Çıkış Yap → Hesabımı Sil** ve
 
 ---
 
-## 11. Tıbbi Sorumluluk Reddi
 
-⚕️ **MaternaAI tıbbi tavsiye sağlamaz.** Uygulama içinde sunulan bilgiler **eğitim ve genel bilgilendirme** amaçlıdır. Tıbbi bir karar vermeden önce mutlaka **doktorunuza danışın**.
 
----
-
-## 12. Politika Değişiklikleri
+## 10. Politika Değişiklikleri
 
 Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişiklikler için uygulama içinde bildirim göndereceğiz. Güncel sürüm her zaman bu sayfada bulunur.
 
 ---
 
-## 13. İletişim
+## 11. İletişim
 
 Sorularınız için:
 
