@@ -1,130 +1,82 @@
 # Gizlilik Politikası — MaternaAI
 
-**Son güncelleme:** 1 Mayıs 2026
+**Son güncelleme:** Kasım 2026
 
-MaternaAI uygulamasını ("Uygulama") kullandığınız için teşekkür ederiz. Bu Gizlilik Politikası, kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
+## 1. Toplanan Bilgiler
 
----
+MaternaAI, sana en iyi hizmeti sunabilmek için bazı bilgilerini toplar:
 
-## 1. Veri Sorumlusu
+- Hesap bilgileri: Ad soyad, e-posta, profil fotoğrafı
+- Hamilelik bilgileri: Son adet tarihi, tahmini doğum tarihi, hafta bilgisi
+- Bebek bilgisi: Doğum tarihi (girdiğinde)
+- Uygulamada oluşturduğun içerikler: anı defteri, listeler, randevu notları, su ve bebek hareketi kayıtları, favori isimler, forum gönderileri
+- AI sohbet geçmişi (24 saat sonra otomatik silinir)
+- Cihaz bilgisi: bildirim gönderebilmek için cihazının bildirim kimliği (token)
 
-**Geliştirici:** Norah Software
-**E-posta:** norahsoftware@gmail.com
-**Adres:** Antalya, Türkiye
+Uygulama sağlık verisi (nabız, tansiyon, kilo vb.) toplamaz ve sağlık uygulamalarına (Apple Sağlık, Health Connect) bağlanmaz.
 
----
+## 2. Bilgilerin Nasıl Kullanıldığı
 
-## 2. Topladığımız Veriler
+Topladığımız bilgileri sadece sana hizmet sunmak için kullanırız:
 
-### a) Hesap Bilgileri
-- Ad, soyad
-- E-posta adresi
-- Profil fotoğrafı (Google/Apple ile giriş yaparsanız)
+- Kişiselleştirilmiş AI yanıtları üretmek
+- Hamilelik haftana / bebeğinin yaşına uygun içerik ve hatırlatmalar göstermek
+- Premium aboneliğini yönetmek
+- Uygulama deneyimini iyileştirmek
 
-### b) Kullanıcı Tarafından Sağlanan Yaşam Tarzı ve Günlük Notları
--Kullanıcının kendi isteğiyle uygulama içine kaydettiği günlük notları, hatırlatıcılar ve planlama verileri.
--Hamilelik ve lohusalık süreçlerine yönelik kişisel ajanda ve takvim planlamaları.
--Kullanıcının kendi belirlediği hedef boy, kilo veya su tüketimi gibi tamamen yaşam tarzı yönetimine ait kişisel notlar.
+Verilerini KESİNLİKLE üçüncü taraflarla satmıyoruz, paylaşmıyoruz veya pazarlama amacıyla kullanmıyoruz.
 
-### d) Kullanım Verileri
-- AI sohbet geçmişi (24 saatlik, sonra otomatik silinir)
-- Liste verileri (hastane çantası, alışveriş listesi vb.)
-- Forum gönderileri ve yorumları
-- Bildirim tercihleri
+## 3. Veri Güvenliği
 
-### e) Cihaz Bilgileri
-- Cihaz türü ve işletim sistemi
-- Push notification token (FCM)
-- Uygulama sürümü
+Verilerin Google Firebase Firestore üzerinde şifreli olarak saklanır. Firebase, ISO 27001, SOC 1, SOC 2, SOC 3 sertifikalı bir altyapıdır. Tüm veri iletişimi HTTPS / TLS ile şifrelenir. Şifreler asla düz metin olarak saklanmaz — Firebase Authentication tarafından hash'lenir.
 
----
+## 4. Paylaştığın İçerikler
 
-## 3. Verilerinizi Nasıl Kullanırız
+Anı defterin, listelerin, randevu notların ve günlük kayıtların yalnızca sana aittir ve sadece senin hesabından görüntülenebilir. Topluluk (forum) gönderilerin ve yorumların diğer kullanıcılara açıktır; anonim paylaştığında adın hiçbir yerde saklanmaz ve gösterilmez.
 
-Verileriniz şu amaçlarla kullanılır:
+## 5. AI Sohbet Verileri
 
-- ✅ Kişiselleştirilmiş hamilelik takibi sunmak
-- ✅ AI asistanı ile **size özel** yanıtlar vermek
-- ✅ Bildirimler göndermek
-- ✅ Hizmeti iyileştirmek ve hata gidermek
-- ✅ Premium üyelik haklarınızı yönetmek
+AI asistanı ile yaptığın sohbetler Google Gemini API üzerinden işlenir. Daha uygun yanıtlar için mesajınla birlikte adın ile hamilelik haftan ve tahmini doğum tarihin (ya da bebeğinin yaşı) asistana bağlam olarak gönderilir. Sohbet geçmişin Firestore'da tutulur ancak 24 saat sonra otomatik olarak silinir. Sohbetlerin işlenmesi Google'ın Gemini API kullanım koşullarına tabidir. Asistan sağlık danışmanlığı yapmaz; sohbetlerine kişisel sağlık bilgisi yazmamanı öneririz.
 
-Verileriniz **asla** üçüncü taraflara satılmaz veya kiralanmaz.
+## 6. Çerezler ve İzleme
 
----
+MaternaAI bir mobil uygulamadır, web çerezleri kullanmaz. Reklam veya kullanıcı takibi (izleme) yapılmaz.
 
-## 4. Üçüncü Taraf Hizmetler
+## 7. Çocukların Gizliliği
 
-Aşağıdaki hizmetleri kullanırız:
+MaternaAI 18 yaş altı kullanıcılar için tasarlanmamıştır. 18 yaşından küçük bir kullanıcının kayıt olduğunu fark edersek, hesabı derhal sileriz.
 
-| Hizmet | Amaç | Veri Politikası |
-|---|---|---|
-| **Firebase (Google)** | Kimlik doğrulama, veri saklama | [Firebase](https://firebase.google.com/support/privacy) |
-| **Google Gemini AI** | AI sohbet asistanı | [Google AI](https://policies.google.com/privacy) |
-| **RevenueCat** | Abonelik yönetimi | [RevenueCat](https://www.revenuecat.com/privacy) |
+## 8. Veri Saklama Süresi
 
----
+Hesabın aktif olduğu sürece verilerin saklanır. Hesabını sildiğinde TÜM verilerin (profil, hamilelik bilgileri, anı defteri, listeler, randevu notları, günlük kayıtlar, AI sohbet) kalıcı olarak silinir. AI sohbet geçmişi her halükarda 24 saat sonra otomatik silinir.
 
-## 5. AI Sohbet Geçmişi
+## 9. Haklarınız (KVKK & GDPR)
 
-- AI ile yaptığınız sohbetler **24 saat** sonunda otomatik silinir
-- Premium kullanıcılar için sağlık verileri AI'a gönderilirken **anonimleştirilir**
-- Sohbet içeriği üçüncü taraflarla paylaşılmaz
+Yasal haklarına saygı duyarız:
 
----
+- Verilerine erişim hakkı
+- Verilerini düzeltme hakkı
+- Verilerini silme hakkı (hesabını silerek)
+- Verilerini taşıma hakkı (talep ederek)
+- İşlemeye itiraz hakkı
 
-## 6. Veri Güvenliği
+Bu haklarını kullanmak için bize yazabilirsin. E-posta: norahsoftware@gmail.com
 
-- Tüm veriler **TLS/HTTPS** ile şifrelenmiş bağlantı üzerinden iletilir
-- Firestore'daki veriler endüstri standardı şifreleme ile korunur
-- Şifreleriniz **Firebase Authentication** tarafından hash'lenerek saklanır
+## 10. Premium Ödeme Verileri
+
+Premium aboneliği RevenueCat / App Store / Google Play üzerinden işlenir. Ödeme bilgilerin (kart numarası vb.) bizim sunucularımıza HİÇ ulaşmaz. Tüm ödeme süreci Apple/Google'ın güvenli altyapısı üzerinden gerçekleşir.
+
+## 11. Değişiklikler
+
+Gizlilik politikamız zaman zaman güncellenebilir. Önemli değişiklikler uygulama içi bildirim ile sana iletilir. Güncel sürümü her zaman bu sayfada bulabilirsin.
+
+## 12. İletişim
+
+Gizlilik ile ilgili tüm soruların için bize ulaşabilirsin:
+
+E-posta: norahsoftware@gmail.com  
+Veri Sorumlusu: Norah Software
 
 ---
 
-## 7. Çocuklar
-
-Uygulamamız **18 yaş altı kullanıcılar için tasarlanmamıştır**. 18 yaşından küçükseniz lütfen kullanmayın. Bilmeden bir çocuktan veri toplandığını fark edersek hemen sileriz.
-
----
-
-## 8. Haklarınız (KVKK & GDPR)
-
-Aşağıdaki haklara sahipsiniz:
-
-- ✅ Verilerinize **erişim** talep etme
-- ✅ Verilerinizi **düzeltme**
-- ✅ Hesabınızı ve verilerinizi **silme**
-- ✅ Veri işlemeye **itiraz etme**
-- ✅ Verilerinizi **taşınabilir formatta** alma
-
-Hesap silme: Uygulama içinde **Profil → Çıkış Yap → Hesabımı Sil** veya `norahsoftware@gmail.com` adresine e-posta gönderin.
-
----
-
-## 9. Veri Saklama Süresi
-
-- **Hesap aktifken:** Veriler saklanır
-- **Hesap silindiğinde:** Tüm veriler **30 gün içinde** kalıcı olarak silinir
-- **AI sohbet geçmişi:** 24 saat
-- **Yedeklemeler:** 90 gün (yasal zorunluluk olmadıkça silinir)
-
----
-
-
-
-## 10. Politika Değişiklikleri
-
-Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişiklikler için uygulama içinde bildirim göndereceğiz. Güncel sürüm her zaman bu sayfada bulunur.
-
----
-
-## 11. İletişim
-
-Sorularınız için:
-
-📧 **E-posta:** norahsoftware@gmail.com
-🌐 **Web:** https://maternaai.app
-
----
-
-*Bu politika Türkiye Cumhuriyeti yasalarına ve KVKK'ya uygun olarak hazırlanmıştır.*
+[Gizlilik politikası](privacy-policy) · [Kullanım şartları](terms) · [Hesap ve veri silme](account-deletion)
